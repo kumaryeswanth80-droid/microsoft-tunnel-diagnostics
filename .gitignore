@@ -1,0 +1,64 @@
+# Microsoft Tunnel diagnostic output
+evidence/
+output/
+reports/
+tmp/
+mstunnel-*/
+mtg-*/
+
+# Diagnostic archives and logs
+*.log
+*.txt
+*.tar
+*.tar.gz
+*.zip
+
+# Network captures
+*.pcap
+*.pcapng
+*.cap
+
+# Certificates and private keys
+*.pem
+*.crt
+*.cer
+*.pfx
+*.p12
+*.key
+*.csr
+
+# Environment and secret files
+.env
+.env.*
+*.env
+*secret*
+*credential*
+*token*
+
+# Generated diagnostic data
+*.json
+*.jsonl
+*.csv
+latest-release.json
+version-info-before.json
+images_configured*
+AgentSettings.json
+admin-settings.json
+ocserv.conf
+
+# Temporary and editor files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Allow the published script checksum
+!MTGDiag.sh.sha256
